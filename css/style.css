@@ -23,18 +23,12 @@ header {
   padding: 70px 240px;
 }
 
-.container {
-  display: inline;
-  width: 463px;
-  height: 420px;
-  margin: 150px 240px;
-}
-
 .box1,
 .box2,
 .box3 {
   position: relative;
   display: inline;
+  margin: 10px 10px;
 }
 
 .box1-text,
