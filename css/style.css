@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 
-header {
+header h1{
   background-color: #0a22f4;
   color: #ffffff;
   height: 308px;
@@ -23,17 +23,13 @@ header {
   padding: 70px 240px;
 }
 
-.box1,
-.box2,
-.box3 {
+.box {
   position: relative;
-  display: inline;
-  margin: 10px 10px;
+  display: inline-block;
+  margin: 150px 25px 0px 240px;
 }
 
-.box1-text,
-.box2-text,
-.box3-text {
+.box p{
   background-color: rgba(255, 255, 255, 0.8);
   width: 443px;
   height: 125px;
