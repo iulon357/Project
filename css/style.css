@@ -1,13 +1,33 @@
+@font-face {
+    font-family: lights;
+    src: url(/fonts/HELVETICANEUELTGEO-45LIGHTS.TTF);
+}
 
+@font-face {
+    font-family: roman;
+    src: url(/fonts/HELVETICANEUELTGEO-55ROMAN.TTF);
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: #0A22F4;
-    color: #ffffff;
+  background-color: #0a22f4;
+  color: #ffffff;
+  height: 308px;
 }
 
+img {
+  width: 463px;
+  height: 420px;
+}
+
+p {
+    background-color: aqua;
+    width: 443px;
+height: 125px;
+padding: 30px 74px 30px 30px;
+}
