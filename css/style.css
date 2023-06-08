@@ -1,11 +1,11 @@
 @font-face {
-    font-family: lights;
-    src: url(/fonts/HELVETICANEUELTGEO-45LIGHTS.TTF);
+  font-family: lights;
+  src: url(/fonts/HELVETICANEUELTGEO-45LIGHTS.TTF);
 }
 
 @font-face {
-    font-family: roman;
-    src: url(/fonts/HELVETICANEUELTGEO-55ROMAN.TTF);
+  font-family: roman;
+  src: url(/fonts/HELVETICANEUELTGEO-55ROMAN.TTF);
 }
 
 * {
@@ -18,16 +18,36 @@ header {
   background-color: #0a22f4;
   color: #ffffff;
   height: 308px;
+  font-family: roman;
+  font-size: 32px;
+  padding: 70px 240px;
 }
 
-img {
+.container {
+  display: inline;
   width: 463px;
   height: 420px;
+  margin: 150px 240px;
 }
 
-p {
-    background-color: aqua;
-    width: 443px;
-height: 125px;
-padding: 30px 74px 30px 30px;
+.box1,
+.box2,
+.box3 {
+  position: relative;
+  display: inline;
+}
+
+.box1-text,
+.box2-text,
+.box3-text {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 443px;
+  height: 125px;
+  padding: 30px 74px 30px 30px;
+  font-size: 16px;
+  font-family: lights;
+  color: #171717;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
